@@ -1,0 +1,43 @@
+#services {
+  background: $alternativo;
+  [class^="icon-"] {
+    color: #fff;
+    font-size: 1.5em;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 1.7em;
+    display:block;
+    height: 1.7em;
+    text-align: center;
+    line-height: 1.7em;
+    @include hasta(tablet){
+      display: none;
+    }
+  }
+}
+
+.service {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 2em;
+  &__title {
+    color: #fff;
+    width: 40%;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: $normal;
+  }
+
+  &__sublitle {
+    padding: 0 30px;
+  }
+
+  &__img {
+    width: 30%;
+    margin: 1em auto;
+  }
+
+  &__description {
+
+  }
+}

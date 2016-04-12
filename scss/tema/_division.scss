@@ -1,0 +1,24 @@
+.division {
+  height: 10em;
+  background: url(../img/girl2.jpg) center center / 100%;
+  color: #fff;
+  @include desde(tablet){
+    background: url(../img/girl2.jpg) center center / 100% fixed;
+    height: 20em;
+  }
+  &__title,
+  &__subtitle {
+    z-index: 50;
+  }
+  &__title {
+    font-size: 2em; 
+  }
+
+  &__subtitle {
+    font-size: 1.1em;
+  }
+}
+
+.backg2 {
+    background: url(../img/hombre.jpg) center center / 100% fixed;
+}
