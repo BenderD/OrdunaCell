@@ -15,7 +15,7 @@
       <div class="main-header">
         <div class="ed-container">
           <div class="ed-item base-50 web-30">
-            <div class="logo">Orduna<strong>Cell</strong></div>
+            <a href="#header"><div class="logo">Orduna<strong>Cell</strong></div></a>
           </div>
           <div class="ed-item base-50 web-70 main-end">
   
@@ -23,12 +23,12 @@
 
             <div class="icon-menu toggle-menu hasta-web"></div>
             <ul class="ed-menu web-horizontal">
-              <li><a href="#">Inicio</a></li>
-              <li><a href="#">Servicios</a></li>
-              <li><a href="#">Productos</a></li>
-              <li><a href="#">Sobre Nosotros</a></li>
-              <li><a href="#">Ubicacion</a></li>
-              <li><a href="#">contacto</a></li>
+              <li><a href="#header">Inicio</a></li>
+              <li><a href="#servicio">Servicios</a></li>
+              <li><a href="#l-producto">Productos</a></li>
+              <li><a href="#l-nosotros">Sobre Nosotros</a></li>
+              <li><a href="#l-ubicacion">Ubicacion</a></li>
+              <li><a href="#l-contacto">contacto</a></li>
             </ul>
           </div>
 
@@ -59,40 +59,40 @@
 
   <!-- -------------------- SERVICES ---------------------- -->
 
-    <section id="services">
+    <section id="servicio">
       <div class="ed-container"> 
         <div class="ed-item">
           <h2 class="section__title">Nuestros servicios</h2>
           <p class="section__subtitle">Reparamos todo tipo de celulares, tablets, notbooks y más</p>
         </div>
         <div class="ed-item tablet-1-3">
-          <ul class="pricing-list">
-            <li class="pricing-list__title">Celulares</li>
-            <li class="pricing-list__feature">Servicio 1</li>
-            <li class="pricing-list__feature">Servicio 2</li>
-            <li class="pricing-list__feature">Servicio 3</li>
-            <li class="pricing-list__feature">Servicio 4</li>
-            <li class="pricing-list__feature">Servicio 5</li>
+          <ul class="servicio-list">
+            <li class="servicio-list__title">Celulares</li>
+            <li class="servicio-list__feature">Servicio 1</li>
+            <li class="servicio-list__feature">Servicio 2</li>
+            <li class="servicio-list__feature">Servicio 3</li>
+            <li class="servicio-list__feature">Servicio 4</li>
+            <li class="servicio-list__feature">Servicio 5</li>
           </ul>
         </div>
         <div class="ed-item tablet-1-3">
-          <ul class="pricing-list">
-            <li class="pricing-list__title">Tablets</li>
-            <li class="pricing-list__feature">Servicio 1</li>
-            <li class="pricing-list__feature">Servicio 2</li>
-            <li class="pricing-list__feature">Servicio 3</li>
-            <li class="pricing-list__feature">Servicio 4</li>
-            <li class="pricing-list__feature">Servicio 5</li>
+          <ul class="servicio-list">
+            <li class="servicio-list__title">Tablets</li>
+            <li class="servicio-list__feature">Servicio 1</li>
+            <li class="servicio-list__feature">Servicio 2</li>
+            <li class="servicio-list__feature">Servicio 3</li>
+            <li class="servicio-list__feature">Servicio 4</li>
+            <li class="servicio-list__feature">Servicio 5</li>
           </ul>
         </div>
         <div class="ed-item tablet-1-3">
-          <ul class="pricing-list">
-            <li class="pricing-list__title">Notebook/PC</li>
-            <li class="pricing-list__feature">Servicio 1</li>
-            <li class="pricing-list__feature">Servicio 2</li>
-            <li class="pricing-list__feature">Servicio 3</li>
-            <li class="pricing-list__feature">Servicio 4</li>
-            <li class="pricing-list__feature">Servicio 5</li>
+          <ul class="servicio-list">
+            <li class="servicio-list__title">Notebook/PC</li>
+            <li class="servicio-list__feature">Servicio 1</li>
+            <li class="servicio-list__feature">Servicio 2</li>
+            <li class="servicio-list__feature">Servicio 3</li>
+            <li class="servicio-list__feature">Servicio 4</li>
+            <li class="servicio-list__feature">Servicio 5</li>
           </ul>
         </div>
       </div>
@@ -102,7 +102,7 @@
 
   <!-- -------------------- DIVISION 2 ---------------------- -->
 
-    <section>
+    <section id="l-producto">
       <div class="division abcenter column oscurecer">
         <div class="division__title">Nuestros productos</div>
         <div class="division__subtitle">Todos los accesorios para tu celular y productos relacionados</div>
@@ -111,9 +111,9 @@
 
   <!-- -------------------- /DIVISION 2 ---------------------- -->
 
-  <!-- -------------------- PRODUCTS ---------------------- -->
+  <!-- -------------------- PRODUCTOS ---------------------- -->
   
-    <section id="portfolio">
+    <section id="producto">
       <div class="ed-container">
         <div class="ed-item">
           <div class="gallery">
@@ -132,7 +132,7 @@
 
   <!-- -------------------- DIVISION 3 ---------------------- -->
 
-    <section>
+    <section id="l-nosotros">
       <div class="division abcenter column oscurecer backg2">
         <div class="division__title">Sobre Nosotros</div>
         <div class="division__subtitle">Un poco de nuestra historia</div>
@@ -143,7 +143,7 @@
 
   <!-- -------------------- NOSOTROS ---------------------- -->
 
-    <section id="pricing">
+    <section id="nosotros">
       <div class="ed-container">
 
         <div class="nosotros">
@@ -159,7 +159,7 @@
 
   <!-- -------------------- DIVISION 4 ---------------------- -->
 
-    <section>
+    <section id="l-ubicacion">
       <div class="division abcenter column oscurecer backg2">
         <div class="division__title">Ubicacion</div>
         <div class="division__subtitle">¿Dónde puedes encontrarnos?</div>
@@ -174,7 +174,19 @@
       <div class="ed-container">
         <div class="ed-item">
           <div id="map">
-            <div class="capa-anti-eventos" onclick="style.display='none'"></div>
+            <div class="capa-anti-eventos" onclick="style.display='none'">
+              <div class="rotulo abcenter">
+                <div class="rotulo__dir">
+                  Direccion: Formosa 2390
+                </div>
+                <div class="rotulo__msj">
+                  Para visualizar bien el mapa
+                </div>
+                <div class="rotulo__boton button">
+                  haga click aqui
+                </div>
+              </div>
+            </div>
             <iframe class="map" scrollwheel="false" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1713.9008558165026!2d-60.58946249949294!3d-30.780144228178912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x944ad7da1aa29a55%3A0x5251da19fe29234!2sFormosa+2390%2C+S3040CFD+San+Justo%2C+Santa+Fe!5e0!3m2!1ses-419!2sar!4v1460323291936"allowfullscreen ></iframe>
           </div>
         </div>
@@ -186,7 +198,7 @@
 
   <!-- -------------------- DIVISION 5 ---------------------- -->
 
-    <section>
+    <section id="l-contacto">
       <div class="division abcenter column oscurecer backg2">
         <div class="division__title">Contacto</div>
         <div class="division__subtitle">¡Contactanos para quitarte cualquier duda!</div>
@@ -197,10 +209,31 @@
 
   <!-- -------------------- CONTACTO ---------------------- -->
 
-    <section id="contact">
+    <section id="contacto">
       <div class="ed-container">
-        <div class="ed-item">
-            
+        <div class="ed-item abcenter">
+          <div class="contacto">
+            Puedes contactarnos por cualquiera de estos medios, no dudes en hacer tu consulta.
+
+            Diagnostico y presupuesto <strong>¡SIN CARGO!</strong>
+          </div>
+        </div>
+        <div class="ed-item abcenter">
+          <div class="social-media">
+            <div class="social icon-fb">
+              <div class="social__icon icon-facebook"></div>
+              <div class="social__content"><a href="https://www.facebook.com/OrdunaCell-327847083975021/?fref=ts">OrdunaCell</a></div>
+              <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FOrdunaCell-327847083975021%2F%3Ffref%3Dts&width=176&layout=button_count&action=like&show_faces=false&share=true&height=46&appId" width="176" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+            </div>
+              <div class="social icon-tel">
+                <div class="social__icon icon-whatsapp"></div>
+                <div class="social__content">03498-15-527085</div>
+              </div>
+              <div class="social icon-em">
+                <div class="social__icon">Email</div>
+                <div class="social__content">ordunaluis@hotmail.com</div>
+              </div>
+          </div>
         </div>
       </div>
 
@@ -211,7 +244,16 @@
   <!-- -------------------- FOOTER ---------------------- -->
 
   <footer id="footer">
-    <div class="abcenter">Soy el footer</div>
+    <div class="ed-container">
+      <div class="ed-item">
+        <div class="footer abcenter">
+          <div>
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FOrdunaCell-327847083975021%2F%3Ffref%3Dts&tabs&width=300&height=214&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300" height="214" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+          <div>Copyright © 2016 <a href="#">BenCod</a> All rights reserved</div>
+          </div>
+        </div>
+      </div>
+    </div>
   </footer>
 
   <!-- -------------------- /FOOTER ---------------------- -->

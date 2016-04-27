@@ -1,5 +1,13 @@
 #footer{
-	height: 400px;
 	color: #fff;
-	
+	font-size: 0.7em;
+	height: 5em;
+	line-height: 5em;
+	a{
+		font-weight: bold;
+		color: $link-importante;
+	}
+	iframe{
+		margin-top: 1em;
+	}
 }

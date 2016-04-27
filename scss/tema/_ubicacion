@@ -17,12 +17,34 @@
 .capa-anti-eventos {
 	margin: 2em auto;
 	background: rgba(0,0,0,0);
-	width: 100%;
+	width: 95%;
 	height: 320px;
 	position: absolute;
 	cursor: pointer;
 	z-index: 1000;
 	@include desde(tablet){
 		height: 480px;
+	}
+}
+
+.rotulo{
+	text-shadow: 1px 1px 4px $link-importante, -1px -1px 4px $link-importante;
+	font-size: 1.2em;
+	color: $secundario;
+	margin-top: 5em;
+	@include desde(tablet){
+		margin-top: 3.5em;
+		font-size: 2em;
+	}
+	&__dir,
+	&__msj,
+	&__boton{
+		margin-bottom: 1em;
+	}
+	&__msj{
+		margin-top: 2.5em;
+	}
+	&__boton{
+		border-radius: 1.25em;
 	}
 }

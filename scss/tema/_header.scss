@@ -5,13 +5,9 @@
 .logo {
   color: #FFF;
   font-weight: $bold;
-  font-size: 1rem;
+  font-size: 1.5em;
   strong {
     color: lighten($link-importante,16);
-  }
-
-  @include desde(movil){
-    font-size: 1.5em;
   }
 
   @include desde(web){
@@ -26,7 +22,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1000;
+  z-index: 3000;
   height: 2.5em;
   line-height: 2.5em;
   @include desde(web){

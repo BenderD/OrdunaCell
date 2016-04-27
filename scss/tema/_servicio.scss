@@ -1,0 +1,74 @@
+#servicio {
+  background: $alternativo;
+  [class^="icon-"] {
+    color: #fff;
+    font-size: 1.5em;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 1.7em;
+    display:block;
+    height: 1.7em;
+    text-align: center;
+    line-height: 1.7em;
+    @include hasta(tablet){
+      display: none;
+    }
+  }
+}
+
+.servicio-list {
+  list-style: none;
+  padding-left: 0;
+  background: rgba(#000, .1);
+  color: #fff;
+  font-weight: $light;
+  text-transform: uppercase;
+  li {
+    text-align: center;
+    border-bottom: 1px solid rgba(#000,.1);
+  }
+  &__title {
+    background: rgba(#000, .5);
+    font-size: 1.5em;
+    line-height: 2;
+  }
+  &__price {
+    background: rgba(#000, .15);
+    line-height: 3;
+    font-size: 2em;
+  }
+  &__feature {
+    line-height: 3;
+    font-size: .9em;
+  }
+  &__buy {
+    font-size: 1.5em;
+    line-height: 3;
+  }
+}
+
+.servicio {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 2em;
+  &__title {
+    color: #fff;
+    width: 40%;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: $normal;
+  }
+
+  &__sublitle {
+    padding: 0 30px;
+  }
+
+  &__img {
+    width: 30%;
+    margin: 1em auto;
+  }
+
+  &__description {
+
+  }
+}

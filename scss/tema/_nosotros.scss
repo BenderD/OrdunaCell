@@ -1,0 +1,18 @@
+#nosotros {
+  &,
+  &:after {
+    background: $alternativo;
+  }
+}
+
+.nosotros{
+  color: #fff;
+  text-align: justify;
+  margin: 1em 1em;
+  margin-bottom: 5em !important;
+
+  @include desde(tablet){
+    margin: 1em 5em;  
+  }
+
+}

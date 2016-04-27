@@ -1,0 +1,53 @@
+#contacto{
+	background: $alternativo;
+	color:#fff;
+	&:after {
+		background: $alternativo;
+  }
+}
+
+.contacto{
+	margin: 3em auto;
+	strong{
+		color: lighten($link-importante,10);
+		display: block;
+	}
+	@include desde(tablet){
+		font-size: 1.5em;
+		strong{
+			font-size: 2em;
+		}
+	}
+}
+
+.social-media{
+	margin-bottom: 4em;
+}
+
+.social {
+	margin: 1.5em auto;
+	&__icon{
+		font-size: 1.5em;
+		margin-bottom: 5px;
+	}
+	&__content{
+		font-size: 1.5em;
+		font-weight: bold;
+		a{
+			color: #FFF;
+			text-decoration: underline;
+		}
+	}
+	iframe{
+		margin-top: .8em;
+		margin-bottom: 0;
+	}
+}
+
+.icon-fb{
+
+}
+
+.icon-tel{
+
+}

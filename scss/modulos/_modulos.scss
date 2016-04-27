@@ -5,6 +5,7 @@
     background: url('../img/background1.jpg')center / 100% fixed;
   }
   &__title{
+    text-shadow: 1.5px 1.5px 3px $link-importante, -1.5px 1.5px 3px $link-importante;
     text-transform: uppercase;
     font-weight: bold;
     @include desde(tablet){
@@ -12,6 +13,7 @@
     }
   }
   &__subtitle{
+    text-shadow: 1.5px 1.5px 3px $link-importante, -1.5px 1.5px 3px $link-importante;
     @include desde(tablet){
       font-size: 2em;
     }
